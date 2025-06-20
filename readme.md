@@ -4,15 +4,14 @@
 Recent Overview is a GNOME Shell extension that sorts windows in the Activities Overview by their most recent usage. This improves workflow by making it easier to switch between the windows you've used most recently.
 
 ## Features
-------------
-
 * Sorts windows in the GNOME overview based on last used
 * Lightweight and easy to install
 * Compatible with GNOME Shell versions 3.32 – 42
 
-## Installation
-------------
+## Demo
+![til](overview.gif)
 
+## Installation
 ### 1. Clone the repository
 
 ```bash
@@ -33,7 +32,6 @@ You can enable it using:
 * Or run: `gnome-extensions enable recent_overview@aabhiojha.com`
 
 ## Updating
----------
 
 To update the extension:
 
@@ -43,20 +41,3 @@ git pull
 ```
 
 Then reload GNOME Shell as described above.
-
-## Metadata
-----------
-
-* Name: Recent Overview
-* UUID: `recent_overview@aabhiojha.com`
-* Supported GNOME versions: 3.32 – 42
-
-## Feedback & Contributions
--------------------------
-
-Found a bug or want to suggest a feature? Open an issue or submit a pull request.
-
-## License
--------
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
